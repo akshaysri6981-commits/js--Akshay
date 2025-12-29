@@ -29,4 +29,29 @@ let myObj = {                                          // Object
 const myFunction = function(){                         // Function
     console.log("Hello world");
 }
-console.log(typeof heros);
+console.log(typeof anotherId);
+
+// **********************************************************
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myRealName = "AkshaySrivastava"
+
+let anotherName = "Akki"
+
+console.log(myRealName);
+console.log(anotherName);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@upi"
+}
+
+let userTwo = userOne
+
+userTwo.email = "akshay@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+// "Both will show the updated email id as both are reffering to same object in the heap memory"
+   
