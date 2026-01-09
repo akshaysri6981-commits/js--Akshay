@@ -40,4 +40,3 @@ console.log(Math.floor(Math.random()*(max - min + 1)) + min)
 // THIS WILL GIVE RANDOM NUMBER BETWEEN 10 TO 20
 // FORMULA FOR RANDOM NUMBER BETWEEN ANY TWO NUMBERS
 //Math.floor(Math.random()*(max - min + 1)) + min
-// 
