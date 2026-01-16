@@ -69,3 +69,4 @@ console.log(addTwo(3, 4))
 // myArrow.forEach(() => {})
 // myArrow.forEach(() => ())
 // this is some syntax whch we can use
+

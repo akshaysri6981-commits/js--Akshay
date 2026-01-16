@@ -10,20 +10,21 @@
 
 const month = 3
 
+
 switch (month) {
-    case 1:
+    case "Jan":
         console.log("January");
         break;
-    case 2:
+    case "Feb":
         console.log("February");
         break;
-    case 3:
+    case "Mar":
         console.log("March")
         break;
-    case 4:
+    case "April":
         console.log("April");
         break;
-    case 5:
+    case "May":
         console.log("May");
         break;
 
